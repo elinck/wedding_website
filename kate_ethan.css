@@ -1,0 +1,258 @@
+html{
+    font-family:"hoefler";
+}
+
+body{
+    text-align:center;
+    background-color:#ffffff;
+    color: #222222;
+    font-weight: 100;
+    font-size:1vw;
+}
+
+.wrapper{
+    display:block;
+}
+
+#container {
+ display: inline-block;
+}
+
+#titlebox {
+    position:absolute;
+    font-size:3.5%;
+    width:20vw;
+    text-align:center;
+    margin-top:-2vw;
+    margin-left: 5vw;
+}
+
+#titlebox p{
+    font-size:1%;
+    text-align:center;
+    margin-top:-8vw;
+}
+
+#titlebox h1{
+    float:none;
+    color: #222222;
+    font-size:5vw;
+    text-align: left;
+    border-bottom: none;
+}
+#landingImg { 
+    width:30%;
+    margin-left: -30%;
+    margin-top: 2vh;
+    display:inline-block;
+    position:absolute;
+}
+
+#infobar {
+    position:absolute;
+    margin-left:40%;
+    width:60%;
+    cursor:pointer;
+    margin-top: -0.5vw;
+    font-size: 175%;
+}
+
+#infobar h2 {
+    display:inline-block;
+    margin-left:2vw;
+    color: #222222;
+    font-weight:100;
+}
+
+#wedding p{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-top:2vw;
+    font-size: 170%;
+}
+
+#directions p{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-top:2vw;
+    font-size: 170%;
+}
+
+#sleeping p{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-top:2vw;
+    font-size: 170%;
+    
+}
+
+#food p{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-top:2vw;
+    font-size: 170%;
+}
+
+#contact p{
+    display:inline-block;
+    clear:both;
+    width: 100%;
+    margin-left:0%;
+    margin-right:10%;
+    margin-top:2vw;
+    font-size: 170%;
+}
+
+h4{
+	font-weight: 100;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 60%;
+}
+
+h3{
+    color: #313030;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+/* unvisited link */
+a:link {
+    color: #267cb9;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #267cb9;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #267cb9;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #267cb9;
+    text-decoration:none;
+}
+
+
+h1 {
+    display:block;
+    width:100%;
+    color:#3AA7AA;
+    font-size:5%;
+    border-bottom:2px solid #3AA7AA;
+    text-align:left;
+    font-weight:400;
+    line-height:80%;
+}
+
+#wedding h1{
+    display:block;
+    width:100%;
+    color:#222222;
+    font-size:250%;
+    border-bottom:2px solid #222222;
+    text-align:right;
+    font-weight:400;
+    line-height:80%;
+    margin-top: 12%;
+}
+
+#directions h1{
+    display:block;
+    width:100%;
+    color:#222222;
+    font-size:250%;
+    border-bottom:2px solid #222222;
+    text-align:right;
+    font-weight:400;
+    line-height:80%;
+    margin-top: 0vw;
+}
+
+#sleeping h1{
+    display:block;
+    width:100%;
+    color:#222222;
+    font-size:250%;
+    border-bottom:2px solid #222222;
+    text-align:right;
+    font-weight:400;
+    line-height:80%;
+    margin-top: 0vw;
+}
+
+
+#food h1{
+    display:block;
+    width:100%;
+    color:#222222;
+    font-size:250%;
+    border-bottom:2px solid #222222;
+    text-align:right;
+    font-weight:400;
+    line-height:80%;
+    margin-top: 0vw;
+}
+
+#contact h1{
+    display:block;
+    width:100%;
+    color:#222222;
+    font-size:250%;
+    border-bottom:2px solid #222222;
+    text-align:right;
+    font-weight:400;
+    line-height:80%;
+    margin-top: 0vw;
+}
+
+#leftText {
+    width:45%;
+    font-size:3vw;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5%;
+    z-index:1;
+    align-content:left;
+}
+
+#rightPic {
+    width:45vw;
+    margin-left:5%;
+    margin-right:2%;
+    float:right;
+    z-index:2;
+    align-content:left;
+}
+
+#bottomPic {
+    width:45vw;
+    float:center;
+    z-index:2;
+}
+
+#copyright {
+    font-size: 170%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top:2px solid #222222;
+    margin-top: 1%;
+}
